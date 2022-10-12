@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLoaderData } from "react-router-dom";
 import { getContacts } from "../contact";
 export default function Root() {
   return (
